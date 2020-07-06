@@ -6,3 +6,7 @@ The things I learned today:
 - React Hooks
 - More CSS
 
+# ScreenShots:
+
+![alt text](./img1.png)
+![alt text](./img2.png)
