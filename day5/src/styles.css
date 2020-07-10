@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+    color: #555555;
+}
+
+.carousel{
+    position: relative;
+    width:960px;
+    height: 480px;
+    background-color: green;
+    margin: 50px auto;
+}
+
+.dots{
+    width: 100%;
+    bottom: 20px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.dot{
+    width: 15px;
+    height:15px;
+    border-radius: 50%;
+    background-color: #555555;
+    margin: 0 10px;
+}
