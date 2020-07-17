@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+body{
+    background-color: aliceblue;
+}
+
+.heading{
+    color: #555555;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container{
+    width: 500px;
+    height: 600px;
+    margin:10px auto;
+    background-color:aquamarine;
+    max-height: 600px;
+    overflow-y: scroll;
+}
+.textbox{
+    margin: 50px;
+    text-align: center;
+}
+
+input{
+    border: 2px solid #555555;
+    height: 50px;
+    width: 420px;
+    font-size: 20px;
+
+}
+
+.add{
+    width: 80px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    background-color: dodgerblue;
+    border: none;
+}
+
+.todo{
+    position: relative;
+    width: 100%;
+    height:70px;
+    background-color:coral;
+    font-size: 20px;
+    padding: 20px 5px;
+    text-align: center;
+    border-left:6px solid royalblue;
+    color: white;
+    margin-bottom: 1px;
+}
+
+.delete{
+    padding-bottom: 2px;
+    position: absolute;
+    top: 20px;
+    left: 5px;
+    width: 30px;
+    height: 30px;
+    color: white;
+    background-color: red;
+    font-size: 25px;
+}
+
+.delete:hover{
+    cursor: pointer;
+}
+
+.date{
+    font-size: 15px;
+    color: #333333;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.search{
+    text-align: center;
+}
+
+.search > input{
+    border: 2px solid #555555;
+    height: 40px;
+    width: 200px;
+    font-size: 20px;   
+}
+
+.searchbtn{
+    width: 80px;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    background-color:mediumpurple;
+    border: none;
+    margin-right: 2px;
+}
+
+.sort{
+    width: 215px;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    background-color: cornflowerblue;
+    border: none;
+    margin-right: 5px;
+}
+
+.link{
+    position: fixed;
+    top:50px;
+    right: 80px;
+    text-decoration: none;
+    background-color:mediumseagreen;
+    color: white;
+    padding:10px 30px;
+    font-weight: bold;
+}
+
